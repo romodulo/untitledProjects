@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+
+/* .inner-container {
+
+} */
+
+h1 {
+    color:aquamarine;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    background-color:blue;
+}
