@@ -1,3 +1,4 @@
+#my FlaskProject
 emptyHTML.html
 myFlaskProject/.myvenv
 myFlaskProject/__pycache__
@@ -8,3 +9,12 @@ todoOrganizeDevBlog_dot_txt/*.pyc
 UogIdeas/
 UogIdeas/*.pyc
 *.pyc
+
+#renameProject
+renameProject/*.pyc
+renameProject/__pycache__
+renameProject/copyNne_2.py
+
+#any
+.myenv_main
+__pycache__
