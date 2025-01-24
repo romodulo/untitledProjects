@@ -13,8 +13,9 @@ UogIdeas/*.pyc
 #renameProject
 renameProject/*.pyc
 renameProject/__pycache__
-renameProject/copyNne_2.py
+renameProject/copyNne2.py
 
 #any
 .myenv_main
 __pycache__
+copyNne2.py
