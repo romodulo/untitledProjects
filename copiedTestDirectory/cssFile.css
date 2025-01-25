@@ -1,0 +1,16 @@
+/* original code */
+p {
+    border: medium solid;
+}
+/* try {all: ___} */
+p {
+    all: revert;
+    font-size: 200%;
+    font-weight: bold;
+    color:orangered;
+    border: medium solid;
+  }
+
+/* em {
+  border: inherit;
+} */

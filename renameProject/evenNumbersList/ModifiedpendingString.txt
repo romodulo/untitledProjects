@@ -1,0 +1,19 @@
+07 | Adding Routes and Content
+08 | History Mode: HTML5 vs Hash
+09 | Lazy Loading Routes (Vite Only)
+10 | Lazy Loading Routes (Vue CLI Only)
+11 | Navigation Component
+12 | Router Link Active Class
+13 | Dynamic Routes
+14 | Named Routes
+15 | Clean Up
+16 | Reacting to Param Changes
+17 | Route Props
+18 | Experience Cards
+19 | Nested Routes
+20 | Go Back
+21 | Route Transitions
+22 | Learn How to Handle 404 Not Found
+23 | Route Guards
+24 | Scroll Behavior
+25 | Route Meta Fields
