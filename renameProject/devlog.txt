@@ -1,0 +1,3 @@
+-i transfered dirTarget.py to directoryFolder ({{which is: "renameProject"}})
+-created a copy of a file called "ModifiedpendingString.txt" as ...
+< 1-26> <09:59> almost done

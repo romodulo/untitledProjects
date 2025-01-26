@@ -131,13 +131,22 @@ joinedPaths = os.path.join(dirName, siblingFolder, sourceFile_01)
 
 #what is my list of files to rename
 # variableI
-pprint(variableI)
+variableIconverted = {"variableIconverted": variableI}
+pprint(variableIconverted)
+print(len(variableIconverted["variableIconverted"]))
 
 #test open file
 print('joinedPaths:', joinedPaths)
 fileObject = open(joinedPaths, "r")
 # print(fileObject.read())
 fileObject.close()
+
+#i moved some files around
+#my sourceFile-Target is now in my mainDir called "renameProject":
+#open file renameProject/copyModifiedpendingString
+"""
+
+"""
 
 #open: ModifiedpendingString.txt
 #close
