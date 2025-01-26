@@ -1,0 +1,35 @@
+01 | Introduction to Vue Router 4
+02 | Creating the Project with Vite (Vite Only)
+03 | The Scaffolded Codebase (Vite Only)
+04 | Installing and Setting Up Vue Router with Vite (Vite Only)
+05 | Creating the Project with Vue CLI (Vue CLI Only)
+06 | The Scaffolded Codebase (Vue CLI Only)
+07 | Adding Routes and Content
+08 | History Mode: HTML5 vs Hash
+09 | Lazy Loading Routes (Vite Only)
+10 | Lazy Loading Routes (Vue CLI Only)
+11 | Navigation Component
+12 | Router Link Active Class
+13 | Dynamic Routes
+14 | Named Routes
+15 | Clean Up
+16 | Reacting to Param Changes
+17 | Route Props
+18 | Experience Cards
+19 | Nested Routes
+20 | Go Back
+21 | Route Transitions
+22 | Learn How to Handle 404 Not Found
+23 | Route Guards
+24 | Scroll Behavior
+25 | Route Meta Fields
+26 | Router Query Params
+27 | Extending Router Link for External URLs
+28 | Router and the Composition API
+29 | Bonus Lessons
+30 | Programmatic Navigation
+31 | Named Views
+32 | Redirect and Alias
+33 | Detecting Navigation Failures
+34 | Advanced Routes’ Matching Syntax
+35 | Dynamic Routing

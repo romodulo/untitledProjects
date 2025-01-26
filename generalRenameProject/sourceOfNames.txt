@@ -1,0 +1,4 @@
+01 | Introduction to Vue Router 4
+02 | Creating the Project with Vite (Vite Only)
+03 | The Scaffolded Codebase (Vite Only)
+04 | Installing and Setting Up Vue Router with Vite (Vite Only)

@@ -1,0 +1,10 @@
+26 | Router Query Params
+27 | Extending Router Link for External URLs
+28 | Router and the Composition API
+29 | Bonus Lessons
+30 | Programmatic Navigation
+31 | Named Views
+32 | Redirect and Alias
+33 | Detecting Navigation Failures
+34 | Advanced Routes’ Matching Syntax
+35 | Dynamic Routing
