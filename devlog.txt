@@ -1,0 +1,6 @@
+Title-Document:dev log
+
+< 1-27>  time:  <22:10>
+Today is just reading; Today: I am just 
+reading about Python databases for Flask and
+also other stuff as well. 
