@@ -1,0 +1,9 @@
+Under Application Setup -  Page:
+These are the sections"portions"-of-the-code that this Page talks about:
+app.config.from_mapping()
+-with SECRET_KEY
+-with databases
+app.config.from_pyfile()
+os.makedirs() ensures that app.instance_path exists;
+@app.route() creates a simple route
+

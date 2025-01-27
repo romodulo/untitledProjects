@@ -4,3 +4,9 @@ Title-Document:dev log
 Today is just reading; Today: I am just 
 reading about Python databases for Flask and
 also other stuff as well. 
+
+<23:20>
+Last read was about Application Factory... Continue reading off from
+that section. 
+
+Also, created a notesOfTutorial.txt file;
