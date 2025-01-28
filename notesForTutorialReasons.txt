@@ -1,0 +1,18 @@
+#
+I am making this file
+to store my thoughts and 
+ideas for tutorials I hope to
+make in the future.
+
+For Learning How to Program:
+these are my notes::
+;
+"Remember what certain words mean in software-programming but you don't have to
+memorize them by heart at the beginning of your learning."
+A good set of vocabulary/ terms is essential at the beginning of your learning; 
+you may look at the meaning of the words pass, arguments, among various other
+terms. (e.g. other terms include: ) As an experienced programmer I understand
+the meaning of terms such as modules, functions, classes, among many others 
+which I won't get into right now because these terms begin to enter two-word
+territory (e.g. two-words as a term)
+
