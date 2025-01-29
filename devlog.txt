@@ -10,3 +10,11 @@ Last read was about Application Factory... Continue reading off from
 that section. 
 
 Also, created a notesOfTutorial.txt file;
+
+< 1-28> 
+commited some files
+
+< 1-29> <11:32>
+just woke up and started my computer <11.32>
+Plans:
+Read more Flask documentation/tutorial in documentation
