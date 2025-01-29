@@ -1,0 +1,16 @@
+Example-Reference:
+<vue-cheatsheet>
+https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf
+
+Under Example-Reference is 2-lines I want to replicate. 
+I want to possibly create an application that will take a json file
+of all my tabs open and create a list of tabs I hope to close. 
+Q's:
+I wonder if there is a quick, easy way to get a json file
+of all recently closed tabs
+From this [date-range][time-range] until another [date-range][time-range],
+Cross-Reference the recently closed tabs within an
+estimated-approximate timeframe with tabs from the file
+with all the tabs opened [mostly generated from my firebrowser-tab-extension
+which handles my tabs]
+
