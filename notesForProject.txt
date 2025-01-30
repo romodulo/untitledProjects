@@ -6,3 +6,37 @@
     #create a tag for directing to create view
 {% block content %} ,
 {% block footer %} ,
+
+flaskr
+    initial py initialization file (__init__)
+    database file
+    sql schema file
+    {{modules-go-here: below}}
+    auth file
+    blog file
+    templates DIR
+        html's
+        auth DIR
+            html's
+            {{types-of-html-go-here: below:}}
+            register.html
+            login.html
+        blog DIR
+            html's
+            {{types-of-html-go-here: below:}}
+            user_loged_in.html
+            update_blog.html
+            create_aBlog.html
+        index.html
+    .venv/
+    pyproject.toml
+    {{what is this: MANIFEST.in}}
+
+.gitignore--FILES:
+    .venv/
+    instance/
+    *.pyc
+    __pycache__/
+    dist/
+    build/
+    {{What is this: *.egg-info}}

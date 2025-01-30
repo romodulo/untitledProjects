@@ -28,3 +28,11 @@ businessResources/
 
 #
 grabDirName.py
+
+#new Dir
+flask_app_tutorial/*.pyc
+flask_app_tutorial/__pycache__
+flask_app_tutorial/instance/
+#new Dir IN flask_app_tutorial
+flask_app_tutorial/flask_app_crud/*.pyc
+flask_app_tutorial/flask_app_crud/__pycache__

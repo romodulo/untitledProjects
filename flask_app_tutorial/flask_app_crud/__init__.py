@@ -84,7 +84,7 @@
 
 # import what you need to import
 import os
-from flask import Flask
+from flask import (Flask, render_template)
 #need to import Bluepring, g, render_template, redirect, url_for
 
 # create multiple directories:
@@ -111,18 +111,52 @@ def create_app(test_config=None):
 
     #test out the app.route way (decorator function)
     @app.route("/index", methods = ["POST", "GET"])
-    def normal_function():
-        return "Hello Function!"
+    def custom_render_function():
+        return render_template("index.html")
 
 
     return app
 
 # create functions to handle database
+    # import sqlite3
+    # from datetime import datetime
+    # import click
+    # from flask imports current_app, g
+import sqlite3
+from datetime import datetime
+import click
+from flask import current_app, g
+
+def get_db():
+    if 'db' not in g:
+        g.db = sqlite3.connect(
+            current_app.config['DATABASE'],
+            detect_types=sqlite3.PARSE_DECLTYPES
+
+        )
+        g.db.row_factory = sqlite3.Row
+
+    return g.db
+
+def close_db():
+    db = g.pop('db', None)
+
+    if db is not None:
+        db.close()
+
+def test_py_concepts():
+    dictmine = {"so": "three", "far": "ten"}
+    objectTwo = dictmine.get("far-out", 0)
+    print("objectTwo:", objectTwo)
+    #test pop
+    objectTwo = dictmine.pop("far-out", "noValueGiven")
+    print("objectTwo:", objectTwo)
+test_py_concepts()
 
 
 # create a blueprint for views
 # create view functions to render html files or otherwise
-# wriite html templates
+# write html templates
 # link css files using the built-in url for function
 # make your project installable
 # make your project deployable
