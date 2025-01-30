@@ -1,0 +1,8 @@
+#Notes for Project
+{% block header %} ,
+    {% block title %} ,
+    #it's a style choose to include the anchor tag
+    #for create here in header,
+    #create a tag for directing to create view
+{% block content %} ,
+{% block footer %} ,
