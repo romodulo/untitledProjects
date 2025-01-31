@@ -36,3 +36,6 @@ flask_app_tutorial/instance/
 #new Dir IN flask_app_tutorial
 flask_app_tutorial/flask_app_crud/*.pyc
 flask_app_tutorial/flask_app_crud/__pycache__
+
+#might need to delete this at some pointt from .gitignore file
+nextCommit.txt

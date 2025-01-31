@@ -21,3 +21,21 @@ Read more Flask documentation/tutorial in documentation
 
 <1 -29> <19:37>
 stopped coding to move locations (from jack in the box)
+
+< 1-30> <throughout day>
+created application factory, still missing schema.sql file, and schema commited
+
+need to dos:
+consider changing names of tables: {current names: [user, post] }; 
+user table: [id, username, password]; post table: [id, author_id, 
+created, title, body, FOREIGN KEY (author_id) REFERENCES user (id)
+]
+
+@click.command('init-db') runs the command on the terminal 
+to initialize the database
+
+< 1-31> <continution of  1-30> <day's different now> <01:44>
+last codebase: {db.py: started creating this file only}
+going to call it a night at this time.
+
+
