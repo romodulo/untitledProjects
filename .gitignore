@@ -39,3 +39,5 @@ flask_app_tutorial/flask_app_crud/__pycache__
 
 #might need to delete this at some pointt from .gitignore file
 nextCommit.txt
+
+/flask_app_tutorial/.git/

@@ -99,9 +99,16 @@ from flask import (Flask, render_template)
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True) #instance relative config set to True
     app.config.from_mapping(
-        SECRET = 'dev',
-        DATABASE = os.path.join(app.instance_path, "flaskr.sqlite"),
+        SECRET_KEY = 'dev',
+        DATABASE = os.path.join(app.instance_path, "flask_app_crud.sqlite"),
     )
+
+    if test_config is None:
+        # load the instance config, if it exists, when not testing
+        app.config.from_pyfile('config.py', silent=True)
+    else:
+        # load the test config if passed in
+        app.config.from_mapping(test_config)
 
     # ensure the instance folder exists
     try:
@@ -110,54 +117,47 @@ def create_app(test_config=None):
         pass
 
     #test out the app.route way (decorator function)
-    @app.route("/index", methods = ["POST", "GET"])
+    @app.route("/index2", methods = ["POST", "GET"])
     def custom_render_function():
         return render_template("index.html")
 
+    def test_py_concepts():
+        dictmine = {"so": "three", "far": "ten"}
+        objectTwo = dictmine.get("far-out", 0)
+        print("objectTwo:", objectTwo)
+        #test pop
+        objectTwo = dictmine.pop("far-out", "noValueGiven")
+        print("objectTwo:", objectTwo)
+    # commented-out:
+    # test_py_concepts()
 
-    return app
 
 # create functions to handle database
     # import sqlite3
     # from datetime import datetime
     # import click
     # from flask imports current_app, g
-import sqlite3
-from datetime import datetime
-import click
-from flask import current_app, g
-
-def get_db():
-    if 'db' not in g:
-        g.db = sqlite3.connect(
-            current_app.config['DATABASE'],
-            detect_types=sqlite3.PARSE_DECLTYPES
-
-        )
-        g.db.row_factory = sqlite3.Row
-
-    return g.db
-
-def close_db():
-    db = g.pop('db', None)
-
-    if db is not None:
-        db.close()
-
-def test_py_concepts():
-    dictmine = {"so": "three", "far": "ten"}
-    objectTwo = dictmine.get("far-out", 0)
-    print("objectTwo:", objectTwo)
-    #test pop
-    objectTwo = dictmine.pop("far-out", "noValueGiven")
-    print("objectTwo:", objectTwo)
-test_py_concepts()
+#create the db.py file to initialize the database
+    from . import db
+    db.init_app(app)
 
 
-# create a blueprint for views
+# create a blueprint for views (start with "blogs-view" first)
+    from . import blog
+    app.register_blueprint(blog.bp)
+    app.add_url_rule('/', endpoint='index')
+# create a blueprint for views (go with "auth-view" next)
+    from . import auth
+    app.register_blueprint(auth.bp)
+
+    
 # create view functions to render html files or otherwise
 # write html templates
 # link css files using the built-in url for function
+
+    #return app
+    return app
+
 # make your project installable
 # make your project deployable
 # *optional: run a production web-server
