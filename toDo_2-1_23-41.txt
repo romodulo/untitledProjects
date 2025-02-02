@@ -3,3 +3,6 @@
 -either re-create the flask_app_tutorial under this directory: 'untitledProjects' or re-create it on a different directory. 
 
 < 2-2>:  <21:40>
+
+< 2-2>:  <23:52>
+working on a .gitignored project
