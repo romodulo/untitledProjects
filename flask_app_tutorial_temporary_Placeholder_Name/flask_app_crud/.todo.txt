@@ -1,0 +1,5 @@
+#to-do's
+-python3 -m venv venv
+-install flask (pip)
+-import flask
+-initialize flask app

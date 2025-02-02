@@ -1,3 +1,5 @@
 -re-create the flask_app_tutorial directory from empty or almost empty
 -backup or rename current project-directory by appending the name with deprecated
 -either re-create the flask_app_tutorial under this directory: 'untitledProjects' or re-create it on a different directory. 
+
+< 2-2>:  <21:40>
