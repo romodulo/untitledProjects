@@ -38,4 +38,5 @@ to initialize the database
 last codebase: {db.py: started creating this file only}
 going to call it a night at this time.
 
-
+< 2-5>  <22:37>
+working on a .gitignore directory
