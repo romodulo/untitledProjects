@@ -41,3 +41,10 @@ flask_app_tutorial/flask_app_crud/__pycache__
 nextCommit.txt
 
 /flask_app_tutorial/.git/
+
+#
+flask_app_tutorial_temporary_Placeholder_Name/.ve-temporary-Placeholder
+
+#
+flask_app_tutorial_temporary_Placeholder_Name/requests/.ve-requests
+flask_app_tutorial_temporary_Placeholder_Name/requests/app.py

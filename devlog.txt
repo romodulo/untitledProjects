@@ -39,4 +39,10 @@ last codebase: {db.py: started creating this file only}
 going to call it a night at this time.
 
 < 2-5>  <22:37>
-working on a .gitignore directory
+working on a .gitignore directory ("requests")
+
+< 2-6> <22:57>
+-unignored .gitignore-folder except for 1 file. directory: ("requests")  
+-added name of .gitignore directory from yesterday's note
+on this note as well as yesterday's note ("requests")
+

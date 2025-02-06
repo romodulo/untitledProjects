@@ -1,0 +1,5 @@
+pip installed requests
+
+< 2-3> <00:19>
+successfully used a get request with the requests module
+
