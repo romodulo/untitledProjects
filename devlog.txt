@@ -46,3 +46,5 @@ working on a .gitignore directory ("requests")
 -added name of .gitignore directory from yesterday's note
 on this note as well as yesterday's note ("requests")
 
+---  if i could change my commit message: working on requests-directory
+[not exact spelling] instead of works on ...
