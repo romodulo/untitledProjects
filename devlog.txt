@@ -48,3 +48,7 @@ on this note as well as yesterday's note ("requests")
 
 ---  if i could change my commit message: working on requests-directory
 [not exact spelling] instead of works on ...
+
+
+< 2-19>  <22:50>
+-working on a gitignore folder under <directory:> requests
