@@ -1,0 +1,14 @@
+< 2-20>  <16:01>
+create a native-json-file as well as a native-python-dictionairy 
+
+<2 -20>  <18:34>
+grab "/home/romel-linux/untitledProjects/flask_app_tutorial_temporary_Placeholder_Name/requests/ignored/app.py"
+use a system argument "<such-as :  > path" with "a-shebang-py-file" to get
+first "<quotations  >  " and evaluation relative path 
+ex.  what is the relative path for  "<first-quotation >"  from <current-directory>. 
+code: {{
+    os.path.relpath(path, start=os.curdir)
+}}
+example-used : {{
+    os.path.relpath(first_quotation, os.curdir)
+}}

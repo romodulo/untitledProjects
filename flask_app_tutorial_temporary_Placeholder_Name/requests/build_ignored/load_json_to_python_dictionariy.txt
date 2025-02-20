@@ -1,0 +1,1 @@
+{'userString': 'abXYZ', 'userBool': True, 'userNumber': '0.83'}

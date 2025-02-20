@@ -1,0 +1,5 @@
+{
+    "userString": "abXYZ",
+    "userBool": true,
+    "userNumber": "0.83"
+}

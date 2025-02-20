@@ -1,0 +1,3 @@
+keys         userString   values       abXYZ        
+keys         userBool     values       True         
+keys         userNumber   values       0.83         
