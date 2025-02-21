@@ -52,3 +52,6 @@ on this note as well as yesterday's note ("requests")
 
 < 2-19>  <22:50>
 -working on a gitignore folder under <directory:> requests
+
+< 2-20>  < before midnight >
+-working on an ignored directory
