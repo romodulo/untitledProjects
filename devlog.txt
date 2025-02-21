@@ -55,3 +55,6 @@ on this note as well as yesterday's note ("requests")
 
 < 2-20>  < before midnight >
 -working on an ignored directory
+
+< 2-21>  <14:45>
+- working on an ignored directory  << directory-name: ignored_playground >>  and << ignored_playground2 >>
