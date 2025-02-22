@@ -58,3 +58,6 @@ on this note as well as yesterday's note ("requests")
 
 < 2-21>  <14:45>
 - working on an ignored directory  << directory-name: ignored_playground >>  and << ignored_playground2 >>
+
+< 2-21> <Last commit>
+- working on an ignored directory <<vue-create-app>>
