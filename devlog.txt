@@ -67,3 +67,6 @@ on this note as well as yesterday's note ("requests")
 
 < 2-22>  <23:22>   <<last-commit>>
 -  no coding left for today  :  "previous commit message <time> does not reflect actual time I worked on code  :  I failed to recognize that specific confusing during that time of writing"
+
+< 2-27>  <19:14>  <<First-Commit>>
+-  working on an untracted directory <<temporaryDir>>
